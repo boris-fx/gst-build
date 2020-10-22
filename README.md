@@ -1,6 +1,6 @@
 # gst-build
 
-GStreamer [meson](http://mesonbuild.com/) based repositories aggregrator
+GStreamer [meson](http://mesonbuild.com/) based repositories aggregator
 
 You can build GStreamer and all its modules at once using
 meson and its [subproject](https://github.com/mesonbuild/meson/wiki/Subprojects) feature.
@@ -16,7 +16,7 @@ You can find [instructions for Windows below](#windows-prerequisites-setup).
 
 ### Install meson and ninja
 
-Meson 0.48 or newer is required.
+Meson 0.54 or newer is required.
 
 On Linux and macOS you can get meson through your package manager or using:
 
@@ -162,7 +162,7 @@ platform for things to work.
 
 ## Checkout another branch using worktrees
 
-If you need to have several versions of GStreamer coexisting (eg. `master` and `1.14`),
+If you need to have several versions of GStreamer coexisting (e.g. `master` and `1.14`),
 you can use the `checkout-branch-worktree` script provided by `gst-build`. It allows you
 to create a new `gst-build` environment with new checkout of all the GStreamer modules as
 [git worktrees](https://git-scm.com/docs/git-worktree).

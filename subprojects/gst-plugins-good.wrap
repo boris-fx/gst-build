@@ -1,4 +1,4 @@
 [wrap-git]
 directory=gst-plugins-good
 url=https://github.com/boris-fx/gst-plugins-good.git
-revision=1.16.3
+revision=1.16
